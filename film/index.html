@@ -1,0 +1,88 @@
+<html>
+<head>
+		<title> coffeehub</title>
+		<link rel="stylesheet" href = "style.css"/>
+</head>
+<body>
+
+<div class="header">
+  <h1>coffeehub</h1>
+</div>
+
+<!-- inserting video into the website -->
+<div class="card_video">
+    <center>
+      <video style= 'border: 9px double #07004a;width:  90%; height:80%;' autoplay muted controls>
+       <source src="film.mp4" type="video/mp4">
+    </center>
+
+</div>
+  
+  <!-- creating the navigation bar with three links -->
+<div class="topnav">
+  <a href="#about" id="aboutlink">ABOUT</a>
+  <a href="#why" id="whylink"> Why drink coffee?</a>
+  <a href="#join" id="joinlink">JOIN US</a>
+</div>
+
+ <div class="column">
+<!-- the first link about the main idea of the website -->
+    <div class="card" id="about">
+      <h1>ABOUT</h1>
+      <img src ="coffee.jpg">
+      	<p class="one">We are dedicated to bringing together coffeelovers on campus! </p>
+      	<p class="two">  <strong>Our goal </strong>is to create a welcoming community where students can share their love of coffee and learn from each other.</p>
+		<p class="three"> Throughout the year, CoffeeHub hosts a variety of events and activities that cater to all levels of coffee enthusiasts. From coffee tastings and brewing workshops to trips to local coffee shops and roasteries, there is always something new to explore and learn. We also welcome guest speakers who can share their expertise and insights on the coffee industry. </p>
+    </div>
+
+  <!-- the second link -->
+    <div class="card1" id="why">
+      <h1>WHY DRINK COFFEE?</h1>
+      <img src ="why.jpg">
+      
+      		<p><strong>&#9749;Increased alertness and focus:</strong> Coffee contains caffeine, a stimulant that can help improve focus and concentration. This can be particularly helpful for students who need to stay alert during long study sessions or lectures.
+
+			<p><strong>&#9749;Improved memory and cognitive function: </strong>Some studies have shown that caffeine can also help improve memory and cognitive function, which can be beneficial for students who need to retain a lot of information for exams or projects. </p>
+
+			<p><strong>&#9749;Boosted energy:</strong> Coffee can provide a quick energy boost that can help students power through their day, especially when they have a lot on their plate. </p>
+
+			<p><strong>&#9749;Social benefits: </strong>Coffee can also be a great way to connect with others, whether it's meeting up with friends at a local coffee shop or bonding with fellow coffee lovers in a student-led club like CoffeeHub. </p>
+	
+	</div>
+<!-- the container with slideshow of pictures -->
+<div class="slideshow-container">
+	<div class="mySlides fade">
+		<img src="1.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+	  <img src="2.jpg" style="width:100%">
+	</div>
+
+	<div class="mySlides fade">
+  		<img src="3.jpg" style="width:100%">
+	</div>
+</div>
+<br>
+
+<!-- navigation dots are located at the center of the image -->
+<div style="text-align:center">
+	<!-- clicking on a dot to slide through photos -->
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+	<div class="footer" id="join">
+		<h1> JOIN OUR CLUB!</h1>
+		<!-- inserting the hyperlink to the form inside the text -->
+			<p> please feel free to fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLScgnUfvYijJJcr5O8ZHdcBtHWnlvNcA0HabXDkCf_iZX4VkCw/viewform?embedded=true" width="640" height="1201" frameborder="0" marginheight="0" marginwidth="0"> form </a>to join our club!</p>
+	</div>
+
+
+	</div>
+	<!-- connecting with javascript file -->
+    <script src="script.js"></script>
+</body>
+</html>
