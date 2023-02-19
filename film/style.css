@@ -1,0 +1,223 @@
+
+/** {
+  box-sizing: border-box;
+}*/
+html {
+  scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+  font-family: Copperplate;
+  margin: 0;
+  padding: 0;
+  background-color: #fefffa;
+  padding-top: 70px;
+
+}
+
+.row {
+  max-width: 100%;
+  background-color: #fefffa;
+  margin-top: 500px;
+
+
+}
+.card1{
+  margin-top: 300px;
+  margin-right: 20px;
+}
+
+.card{
+    margin-top: 300px;
+    margin-right: 50px ;
+  }
+/* Header/Blog Title */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  text-align: center;
+  background: #fefffa;
+  border-style: double;
+  border-width: 9px;
+  border-color: #07004a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  padding-top: 20px; /* Adjust the value as needed */
+  background-color: #fefffa;
+}
+
+
+.card_video {
+  padding-top: 55px;
+  height: auto;
+  margin-bottom: 100px;
+
+}
+
+.card h1{
+  color: #07004a;
+  text-align: center;
+  font-size: 50px;
+  font-family: Palatino;
+}
+
+.card img {
+   border: 9px double #07004a;
+   margin-right: 20px;
+   width: 500px;
+   height: 470px;
+   float:left;
+   margin-left: 40px;
+}
+
+.card p {
+  margin-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: #07004a;
+  font-family: Palatino;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.card1 img {
+   float: right;
+   border: 9px double #07004a;
+   margin-right: 20px;
+   width: 500px;
+   height: 470px;
+   margin-right: 40px;
+   margin-bottom: 200px;
+ 
+}
+
+.card1 h1{
+  color: #07004a;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 40px;
+  font-family: Palatino;
+}
+
+.card1 p{
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+  padding-left: 40px;
+  font-size: 20px;
+  color: #07004a;
+  font-family: Palatino;
+
+}
+
+
+.header h1 {
+font-family: Copperplate;
+font-size: 70px;
+letter-spacing: 35px;
+word-spacing: 6px;
+color: #07004a;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: #07004a;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fffae0;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  box-sizing: border-box; /* to include padding and border in the element's total width */
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 00px;
+
+}
+
+.footer h1{
+  color: #07004a;
+  text-align: center;
+  margin-left:0px;
+  font-size: 50px;
+  font-family: Palatino;
+}
+
+.footer p{
+  font-size: 30px;
+  font-family: Palatino;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  margin:auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+
+
+/*/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+*/
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }*/
