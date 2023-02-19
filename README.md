@@ -5,6 +5,6 @@ First of all, it was really helpful to have a particular wireframe, which guided
 
 Secondly, CSS positioning is painful. But I found W3Schools website to be a very useful resource in explaining the fundamentals of web design. I used a template of a simple website from there, but I modified it accordingly. However, when I added a scrolling feature with a fixed navigation bar, the position of many components changed. Thus, I spent a lot of time organizing a website’s layout to ensure that it is functionally responsive. 
 
-I'm pleased with the website! It was a great introductory assignment to the fundamentals of web development. I think it is easier for me to navigate through many features of HTML, CSS and JavaScript after understanding the general picture and structure of a website. 
+I'm pleased with the website! It was a great introductory assignment to the fundamentals of web development. Now I think it is easier for me to navigate through many features of HTML, CSS and JavaScript after understanding the general picture and structure of a website. 
 
 I hope to learn more about cool features of JavaScript to create more interactive and user-friendly websites!
