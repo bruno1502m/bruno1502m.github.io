@@ -99,24 +99,6 @@ Parallax: sections with images;
 	background-image: url('img/smile.png');
 }
 
-/* 
-Flower div inside Mountain section
-
-#flower{
-	width: 100px;
-	margin-top: 25px;
-}
-
-#flower-text{
-	color: white;
-}
-
-/* 
-Fish div inside Ocean section
-*/
-/* 
-Text sections after Mountain and Ocean sections
-*/
 .text-section{
 	/* Center text in the middle of browser using flexbox */
 	height: 70%;
