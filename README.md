@@ -1,4 +1,4 @@
-# bruno1502m.github.io
+# for coffee lovers
 Our coffee-themed short film inspired me to create a website for a student club of coffee lovers. The website provides information about the club and invites students to join. Generally, the film serves as a promotional video for the club.
 
 First of all, it was really helpful to have a particular wireframe, which guided throughout the process of creating the website. There are overwhelmingly many features in HTML and CSS that I was thinking of trying out. However, this takes a lot of time, and would create more issues eventually. Thus, a wireframe helped me to stay focused on my initial layout and visuals. The initial idea was to create a website which gives more information as you scroll down. 
